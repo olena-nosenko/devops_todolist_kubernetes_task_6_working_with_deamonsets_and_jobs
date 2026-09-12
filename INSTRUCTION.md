@@ -12,8 +12,8 @@ Use the following instructions below:
 
         kubectl get daemonset -n mateapp
         kubectl logs daemonset/test-daemon-set -n mateapp
-        
+
         kubectl get job -n mateapp
         kubectl logs job/test-cronjob-29820696-dtgls -n mateapp
         
-        Log information for daemonset you can find in /logs/daemonset.log and for cronjob in /logs/cronjob.log.
+        Log information for daemonset you can find in /logs/daemonset.txt and for cronjob in /logs/cronjob.txt.
