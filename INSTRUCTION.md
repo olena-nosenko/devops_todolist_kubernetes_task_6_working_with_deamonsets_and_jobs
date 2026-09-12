@@ -10,7 +10,10 @@ Use the following instructions below:
         kubectl apply -f .infrastructure/todoapp-pod.yml
         kubectl apply -f .infrastructure/clusterIp.yml
 
-        kubectl logs test-daemon-set-7czf4 -n mateapp
-        kubectl logs test-cronjob-29820696-dtgls -n mateapp
-
+        kubectl get daemonset -n mateapp
+        kubectl logs daemonset/test-daemon-set -n mateapp
+        
+        kubectl get job -n mateapp
+        kubectl logs job/test-cronjob-29820696-dtgls -n mateapp
+        
         Log information for daemonset you can find in /logs/daemonset.log and for cronjob in /logs/cronjob.log.

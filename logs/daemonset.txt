@@ -1,0 +1,1386 @@
+--- Sat Sep 12 19:26:39 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:26:40 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=NwQBoQgFgxbIw9uXnOyPE36kAqwbRJFY; expires=Sat, 11 Sep 2027 19:26:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="N2GTOIp8R2L9CbvAOszrn9ueV1fAZE5Yqomk2ovDXpMHYaPn16X6R2qolhBBGdAM">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  35266      0 --:--:-- --:--:-- --:--:--  159k
+--- Sat Sep 12 19:26:45 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:26:45 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=8QsIzdAQ0kxkUooRGLFbz7GEZa9juHco; expires=Sat, 11 Sep 2027 19:26:45 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="IR317bZFhqqX5gazGyfTBlyq2QQhhaUtGxlzwepl7AN7Puogc9KU0i4URQPqBHWH">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  36450      0 --:--:-- --:--:-- --:--:--  228k
+--- Sat Sep 12 19:26:50 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:26:51 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=SArCmbVPWSfKrzwfxU9O2H7spZgj801Y; expires=Sat, 11 Sep 2027 19:26:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="DHtGPI0ATpzDcOEKPaPND3mY4a9Vu6JSl7K81JLfF7Edtd0PcUOrvAjgjZf4sWAG">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  37172      0 --:--:-- --:--:-- --:--:--  406k
+--- Sat Sep 12 19:26:56 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:26:56 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=i2lbGBzzUiV4LXOWSow8PcEZqqQOJ3Na; expires=Sat, 11 Sep 2027 19:26:56 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="dM2FEi4dXynJq7OoS4Er3gZ4i2BawKNllEdGaJtCHG8D1UsaAi0pIitTyihO5Dql">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  36254      0 --:--:-- --:--:-- --:--:-- 40290
+--- Sat Sep 12 19:27:01 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:01 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=httql2Phu7dnSMYdWZ8fdrIvgjBcR000; expires=Sat, 11 Sep 2027 19:27:01 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="W13TtaOmOMs80RMWJq7Op8epa0mytC4R3km9E2tt8JvlItAZvf5TspMKg9NAasUH">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  37423      0 --:--:-- --:--:-- --:--:--  304k
+--- Sat Sep 12 19:27:07 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:07 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=E5cYmOx4TvSVHjetxDp7J9qqXLI78tjF; expires=Sat, 11 Sep 2027 19:27:07 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="8cOmWLrveUZhcLGzE2jAxiv5IGgdw6BtC7Qa8pOpXfH2JUKS1vyx6hLlvhOaupKY">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  35751      0 --:--:-- --:--:-- --:--:--  281k
+--- Sat Sep 12 19:27:12 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:12 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=NxILzgs9tYroL3Vzn5zo7tBjUuALoHj0; expires=Sat, 11 Sep 2027 19:27:12 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="ijl2kYt1pCIDLdRJ3s7VOfk4NIHhHQcPVGTDJ4L0IqZRm6C8gnw9LyLdx27SVnlF">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  36415      0 --:--:-- --:--:-- --:--:-- 41633
+--- Sat Sep 12 19:27:17 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=pvMeXVs0R4s8VvnbGzjiZTVk05HfNFiv; expires=Sat, 11 Sep 2027 19:27:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="scSkxwRShCiQoru4AREv66uwsPHrvmnXHxuokh9IYwAO9MH56gNDVPfGiKew8Rvi">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  35921      0 --:--:-- --:--:-- --:--:--  304k
+--- Sat Sep 12 19:27:23 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=GoNmt5I2oI5P7pgYj3pJNmfqfNZiT8Ar; expires=Sat, 11 Sep 2027 19:27:23 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="8qi96ufL4xfuJPYZC00YT5TTge8tB487EEVlppNDi5a9G44NLTfxwhY9lRXBk2yo">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  36209      0 --:--:-- --:--:-- --:--:--  332k
+--- Sat Sep 12 19:27:28 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=RtGn39MRTIZW3QjXe3ze3IxrQzYn4HLM; expires=Sat, 11 Sep 2027 19:27:29 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="xseFoMsCDinvwaHR3HK4nj8NAG2ee38PeLKShL4jmQchpQQE7A98gRv4g5Qr8AJr">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  36366      0 --:--:-- --:--:-- --:--:--  261k
+--- Sat Sep 12 19:27:34 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=olAiBMMWtCP0A9uI7OI6tAlROhiUvJBk; expires=Sat, 11 Sep 2027 19:27:34 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="9m0HFjjWLEDWdMELgoMyvfrBcjc6EGtYnxqP6VVI46iMDLYjd2kuOFCiQqkQZfU8">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  20243      0 --:--:-- --:--:-- --:--:-- 40728
+--- Sat Sep 12 19:27:39 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:40 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=gGmAjUO5eafthFTzqA87z8IRAcnYSMg2; expires=Sat, 11 Sep 2027 19:27:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="KdYI7rVwQL10eVkc4XfFUclssCIwm7iPQJa8gbzrUL6jlq3BkndCjaT9SEVk4JoH">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  35142      0 --:--:-- --:--:-- --:--:-- 38628
+--- Sat Sep 12 19:27:45 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:45 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=yH2m98Xr1K7Idy7W5LSYaO8S0ZmbP1HG; expires=Sat, 11 Sep 2027 19:27:45 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="bmpwIHd1a7lg7aUu6ucTfR4hVbWqLtWRzThIHF0i1HiOayRg15UHfv2ZL08rqktn">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  34674      0 --:--:-- --:--:-- --:--:--  304k
+--- Sat Sep 12 19:27:50 UTC 2026 ---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 19:27:51 GMT
+Server: WSGIServer/0.2 CPython/3.8.19
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Cookie
+Content-Length: 3747
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie:  csrftoken=xfAOYnPT70EaUl1qdf7IFpAcrEjJ2hqa; expires=Sat, 11 Sep 2027 19:27:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Djodolist</title>
+  <meta name="description" content="Small todolist app.">
+  <meta name="author" content="Christian Rotzoll">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type='text/css' href="/static/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="/">Djodolist</a></li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="/auth/login/">Login</a>
+        </ul>
+      </div>
+    </nav>
+
+<section class="header">
+  <h2 class="title">Dead simple Todolists.</h2>
+  <div class="row">
+    <div class="three columns value-prop"></div>
+    <div class="six columns">
+      <form action="/todolist/new/" method=post>
+        <input type="hidden" name="csrfmiddlewaretoken" value="RVWE7pNXxHuWxLH0MEWAKMY3LsC3gXRJe0miVCsGuxYWhWygPJT8f1o52WLC847J">
+        <dl>
+          <dd><tr>
+    <th></th>
+    <td>
+
+      <input type="text" name="description" class="u-full-width" placeholder="Enter your todo" maxlength="128" required id="id_description">
+
+
+
+
+    </td>
+  </tr>
+          <dt><input type="submit" class="button button-primary" value="Start one now">
+        </dl>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+100  3747  100  3747    0     0  35542      0 --:--:-- --:--:-- --:--:--  281k
